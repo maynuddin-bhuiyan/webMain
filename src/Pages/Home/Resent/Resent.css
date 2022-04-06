@@ -1,0 +1,74 @@
+.Resent{
+    margin-top: 200px;
+    padding:  100px 0px;
+    background: #F5F7FD;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Efficent {
+    width: 350px !important;
+    padding: 50px;
+    cursor: pointer;
+    transition: linear .1s;
+    margin-left: 0px;
+    
+}
+
+.Efficent h2 {
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: linear .1s;
+}
+
+
+
+.Efficent img {
+    display: inherit;
+    margin-bottom: 20px;
+    transition: linear .1s;
+}
+
+
+.Efficent .Icon {
+    display: inherit;
+    margin-bottom: 20px;
+    transition: linear .1s;
+    font-size: 40px;
+}
+
+
+.Efficent p {
+    width: 220px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.Efficent:hover h2{
+    color: #E71E68;
+    border-bottom: 2px solid #E71E68;
+    
+}
+
+
+.Efficent:hover .Icon{
+    color: #E71E68;
+    font-size: 50px;
+ 
+}
+
+
+
+
+.Efficent:hover{
+    box-shadow: 0px 1px 9px .23 #000000;
+    background: #FFF; 
+    border-radius: 20px;
+    margin-left: 10px;
+    
+    
+}
+

@@ -1,0 +1,8 @@
+.Footer {
+    background-image: url("http://localhost:3000/static/media/Group%204299.4e4bbd28b01f78f327f7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+    cursor: pointer;
+}

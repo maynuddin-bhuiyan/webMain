@@ -1,0 +1,9 @@
+.List {
+    display: flex;
+    margin-left: 200px;
+}
+
+
+.Logo img {
+    width: 150px;
+}

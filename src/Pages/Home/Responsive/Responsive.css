@@ -1,0 +1,102 @@
+.Responsive{
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.Responsive > h1 {
+    color: #102C50;
+    width: 660px;
+    margin: 0 auto;
+}
+
+
+.Responsive .line {
+    background: #E71E68;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 150px;
+    left: 19%;
+}
+
+.Responsive .line1 {
+    background: #E71E68;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 150px;
+    right: 19%;
+}
+
+
+
+.ResponsiveText {
+    
+    cursor: pointer;
+    box-shadow: 0px 1px 10px -5px #000000;
+    width: 420px;
+    padding: 80px 0px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    transition: linear .4s;
+    position: relative;
+    background: #FFF;
+}
+
+
+.ResponsiveText img {
+    width: 100px;
+    margin-bottom: 30px;
+    height: 80px;
+    transition: linear .4s;
+}
+
+
+.ResponsiveShap {
+    background-color: #E40046;
+    width: 420px;
+    height: 410px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    border-radius: 20px;
+    transition: linear .2s;
+}
+
+
+.ResponsiveText .icon {
+    font-size: 80px;
+    height: 110px;
+}
+
+
+
+.ResponsiveText p {
+    width: 230px;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+
+.ResponsiveText:hover .icon {
+    
+    color: #E71E68;
+}
+
+
+
+.ResponsiveText:hover .ResponsiveShap {
+    transform: rotate(10deg);
+}
+
+
+
+/* .ResponsiveText:hover img {
+    transform: rotate(360deg);
+} */

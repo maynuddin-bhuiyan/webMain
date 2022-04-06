@@ -1,0 +1,57 @@
+.Banner{
+    background-image: url(../../../Images//Banner/Mask\ Group\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1370px;
+    height: 550px;
+    margin-top: -63px;
+    margin-left: 135px;
+    margin-bottom: 100px;
+}
+
+
+.Image img {
+    position: absolute;
+    top: 160px;
+    right: 130px;
+    width: 621px;
+    height: 550px;
+}
+
+
+
+
+.Text {
+    margin-left: -100px !important;
+    margin-top: 100px !important;
+}
+
+
+
+
+.Text h2 {
+    color: #102C50;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Sitka Subheading;
+    width: 680px;
+    margin-top: 80px;
+}
+
+
+.Text p {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    width: 650px;
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+
+
+.Text button:hover {
+    color: #102C50;
+    font-weight: 700;
+}

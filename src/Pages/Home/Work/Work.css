@@ -1,0 +1,83 @@
+.Work{
+    padding: 100px 0px;
+}
+
+
+
+.WorkMain{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.WorkMain .Main{
+    width: 100%;
+    box-shadow: 0px 1px 9px -5px #000000;
+    border-radius: 15px;
+}
+
+
+.Main img {
+    width: 350px;
+    height: 300px;
+}
+
+
+.Work h2 {
+    color: #102C50;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Sitka Subheading;
+    width: 680px;
+    margin-top: 110px;
+   
+}
+
+.Work .line {
+    width: 100px;
+    height: 3px;
+    background: #E71E68;
+    margin-left: 370px;
+    margin-top: -35px;
+}
+
+
+
+.Work p {
+    color: #102C50;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Sitka Subheading;
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.WorkMain .Main h6 {
+    color: #102C50;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Sitka Subheading;
+    width: 270px;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+
+.WorkMain .Main p {
+    color: #102C50;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Sitka Subheading;
+    width: 270px;
+    margin: 0px;
+    padding-left: 20px;
+}
