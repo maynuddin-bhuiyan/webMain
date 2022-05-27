@@ -1,5 +1,5 @@
 .Waiting {
-    width: 800px;
+    width: 100%;
     padding: 30px;
     display: flex;
     box-shadow: 0px 1px 9px -3px #000000;
@@ -15,20 +15,23 @@
     font-family: Sitka Subheading;
 }
 
-
-.Waiting .Start{
-    margin-top: 50px;
-    margin-left: 90px;
-    background: #E40046;
-    padding: 10px 10px;
-    color: #FFF;
+.Waiting .Start {
+    margin-top: 10px;
+    margin-left: 0px;
+    background: none;
+    padding: 15px 10px;
+    color: rgb(0, 0, 0);
     transition: linear .4s;
+    width: 400px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Sitka Subheading";
 }
 
 
-
-
 .Waiting .Start:hover{
-    color: #000000;
+    color: #ffffff;
+    background: #E40046;
     border: 2px solid #E40046;
+    border-radius: 20px;
 }

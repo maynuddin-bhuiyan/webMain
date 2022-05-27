@@ -1,7 +1,7 @@
 .Resent{
     margin-top: 200px;
     padding:  100px 0px;
-    background: #F5F7FD;
+    background: #a5fbf9;
     width: 100%;
     overflow: hidden;
 }
@@ -12,15 +12,17 @@
     cursor: pointer;
     transition: linear .1s;
     margin-left: 0px;
+    text-align: center;
+    position: relative;
     
 }
 
 .Efficent h2 {
-    border-bottom: 2px solid #000000;
     display: inline-block;
     text-transform: uppercase;
     line-height: 50px;
-    transition: linear .1s;
+    text-align: center;
+    transition: all linear .4s;
 }
 
 
@@ -29,27 +31,52 @@
     display: inherit;
     margin-bottom: 20px;
     transition: linear .1s;
+    
 }
 
 
 .Efficent .Icon {
     display: inherit;
-    margin-bottom: 20px;
     transition: linear .1s;
     font-size: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all linear .4s;
 }
 
 
 .Efficent p {
     width: 220px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     color: #000000;
+    visibility: hidden;
+    transition: all linear .4s;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+
+.Efficent:hover p{
+    visibility: visible;
+   
+}
+
+
+
+.Efficent:hover .Icon{
+    width: 0px;
+   
 }
 
 .Efficent:hover h2{
-    color: #E71E68;
-    border-bottom: 2px solid #E71E68;
+    color: #E71E68;   
+    width: 100%;    
+    padding: 0px;
+    margin: 0px;
+    
     
 }
 

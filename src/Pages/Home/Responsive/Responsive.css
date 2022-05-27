@@ -6,31 +6,24 @@
 }
 
 
-.Responsive > h1 {
+.Responsive  h1 {
     color: #102C50;
     width: 660px;
-    margin: 0 auto;
+    text-align: left;
+   
 }
 
 
-.Responsive .line {
-    background: #E71E68;
-    width: 100px;
-    height: 3px;
-    position: absolute;
-    top: 150px;
-    left: 19%;
-}
+
 
 .Responsive .line1 {
-    background: #E71E68;
-    width: 100px;
-    height: 3px;
+    background: #ff3185;
+    width: 150px;
+    height: 4px;
     position: absolute;
-    top: 150px;
-    right: 19%;
+    top: 165px;
+    left: 40px;
 }
-
 
 
 .ResponsiveText {
@@ -57,7 +50,7 @@
 
 
 .ResponsiveShap {
-    background-color: #E40046;
+    background-color: #ff3185;
     width: 420px;
     height: 410px;
     position: absolute;
@@ -72,6 +65,7 @@
 .ResponsiveText .icon {
     font-size: 80px;
     height: 110px;
+    transition: all linear .2s;
 }
 
 
@@ -84,9 +78,25 @@
 }
 
 
+.ResponsiveText h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    transition: all linear .2s;
+}
+
+
+
+.ResponsiveText:hover h2 {
+    
+    color: #ff3185;
+}
+
+
+
 .ResponsiveText:hover .icon {
     
-    color: #E71E68;
+    color: #ff3185;
 }
 
 

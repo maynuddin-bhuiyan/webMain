@@ -24,29 +24,28 @@ const ContactUs = () => {
   };
     return (
         <div className='ContactUs'>
-            <div className="line"></div>
-            <h1>Contact Us</h1>
+
+          <div className="Container">
+            
+            <h1>Connect Me</h1>
             <div className="line1"></div>
-            <p>We'd love to get to know you and learn how we can help, so please get in touch, or request a call back.</p>
-            <p>Fill in the form or choose one of the options below for a swift response.
-</p>
 
 
 <Grid container spacing={2}>
-        <Grid sx={{marginTop: '100px'}} className='ContactText' item xs={6} md={8}>
-          <p>When calling, please be ready to share a little about your business to help us understand how we might help.</p>
-          <p>Everything you tell – unless demonstrably unlawful – will be treated as completely confidential.</p>
+        <Grid sx={{marginTop: '100px'}} className='ContactText' item xs={4} md={4}>
+        
+        
 
             <div className="call">
-            <p> <MailIcon className='Icon' />  Exbens.com@gmail.com</p>
-                <p> <LocationOnIcon className='Icon' />  Matisa lela 29-15 Riga , Latvis</p>
-                <p> <PhoneIcon className='Icon' />  + 37122001544</p>
+            <p> <MailIcon className='Icon' />maynuddinbhu14grm@gmail.com  </p>
+                <p> <LocationOnIcon className='Icon' />  Mirpur 1, Dhaka, Bangladesh,</p>
+                <p> <PhoneIcon className='Icon' /> +088 1908145097</p>
                 
                 
             </div>
 
         </Grid>
-        <Grid sx={{marginTop: '100px'}} className='ContactImage' item xs={6} md={4}>
+        <Grid sx={{marginTop: '100px'}} className='ContactImage' item xs={8} md={8}>
         <div className="ticket-booking-container">
           
           <form className="mt-4" onSubmit={onSubmitHandler}>
@@ -130,7 +129,7 @@ const ContactUs = () => {
 
 
 
-
+      </div>
 
 
         </div>

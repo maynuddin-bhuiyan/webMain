@@ -2,23 +2,77 @@ import React from 'react';
 import './Development.css';
 import Grid from '@mui/material/Grid';
 import image from '../../../Images/Group 4303.png';
+import background1 from '../../../Images/Component 1 – 1.png';
 
 const Development = () => {
     return (
-        <div className='Container  Development'>
-            <div className='line'></div>
-                <h2>Web Development Services</h2>
+        <div className="Development">
+            <img className='Backred' src={background1} alt="" />
+        <div className='Container'>
+           
+                <h2>About Us</h2>
+
+                <div className='line'></div>
             <Grid container spacing={2}>
-                <Grid className='DevelopmentText'  item xs={6} md={6}>
+                <Grid className='DevelopmentText'  item xs={5} md={5}>
                 
-                <h5>Build better with a strong foundation</h5>
-                <p><strong>Website development</strong>  is at the heart of what we do - it's the hidden magic in our technical offering and it sits hand in hand with the visual side of <span className='color'> website design.</span> Our  <strong>development team</strong>  makes sure that your website is fast, reliable and responsive. They're the ones who make sure that animations work 'just so' and various add-ons, integrations like payment via PayPal or Stripe for example, fit perfectly into the structure and coding of your site. </p>
+                <h5>Get the best Results for Web Marketing Companies </h5>
+                    
+
+                <div className="Skills-bar">
+    <div className="bar">
+        <div className="info">
+            <span>Html</span>
+        </div>
+        <div className="Progress-line image"><span></span></div>
+    </div>
+
+
+    <div className="bar">
+        <div className="info">
+            <span>Css</span>
+        </div>
+        <div className="Progress-line brand"><span></span></div>
+    </div>
+
+
+
+    <div className="bar">
+        <div className="info">
+            <span>Javascript ES6</span>
+        </div>
+        <div className="Progress-line uiUx"><span></span></div>
+    </div>
+
+    <div className="bar">
+        <div className="info">
+            <span>React.js</span>
+        </div>
+        <div className="Progress-line React"><span></span></div>
+    </div>
+
+
+    <div className="bar">
+        <div className="info">
+            <span>Node.js</span>
+        </div>
+        <div className="Progress-line Node"><span></span></div>
+    </div>
+
+    <div className="bar">
+        <div className="info">
+            <span>MongoDB</span>
+        </div>
+        <div className="Progress-line MongoDB"><span></span></div>
+    </div>
+
+</div>
                 </Grid>
-                <Grid className='DevelopmentImg'  item xs={6} md={6}>
+                <Grid className='DevelopmentImg'  item xs={7} md={7}>
                     <img src={image} alt="" />
                 </Grid>
             </Grid>
-        </div>
+        </div></div>
     );
 };
 

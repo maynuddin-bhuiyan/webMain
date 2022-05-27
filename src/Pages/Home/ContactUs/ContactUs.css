@@ -8,28 +8,21 @@
 .ContactUs h1 {
     color: #102C50;
     width: 230px;
-    margin: 0 auto;
+    
 }
 
 
 
-.ContactUs .line {
-    background: #E71E68;
-    width: 100px;
-    height: 3px;
-    position: absolute;
-    top: 124px;
-    left: 34%;
-}
+
 
 
 .ContactUs .line1 {
     background: #E71E68;
-    width: 100px;
+    width: 140px;
     height: 3px;
     position: absolute;
-    top: 125px;
-    right: 37%;
+    top: 160px;
+    right: 88%;
 }
 
 

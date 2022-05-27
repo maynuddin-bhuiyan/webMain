@@ -1,50 +1,256 @@
-.DevelopmentImg img {
-    width: 800px;
-    margin-top: -110px;
-    cursor: pointer;
-}
-
-.Development{
+.Development {    
     padding: 100px 0px;
     position: relative;
 }
 
 
-.Development > h2 {
+.Development .Backred {
+    position: absolute;
+    top: 230px;
+    right: 0px;
+    z-index: -1;
+    width: 800px;
+}
+
+
+
+.Development  h2 {
     color: #102C50;
     font-size: 40px;
     font-weight: 700;
-    font-family: Sitka Subheading;
+    font-family: "Sitka Subheading";
     width: 680px;
     margin-top: 0px;
     margin-bottom: 80px;
 }
 
-.Development > .line {
+.Development  .line {
     width: 100px;
     height: 3px;
     background: #E71E68;
     margin-left: 540px;
     margin-top: -55px;
     position: absolute;
-    top: 180px;
-    left: -1%;
+    top: 215px;
+    left: -33%;
 }
+
 
 .DevelopmentText h5 {
     color: #102C50;
     font-size: 20px;
     font-weight: 600;
-    font-family: Sitka Subheading;
-    width: 350px;
+    font-family: "Sitka Subheading";
+    width: 370px;
+    margin-bottom: 50px;
 }
 
+.DevelopmentImg img {
+    width: 900px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 
 
 .DevelopmentText p {
     color: #3A3A3A;
     font-size: 20px;
     font-weight: 600;
-    font-family: Sitka Subheading;
+    font-family: "Sitka Subheading";
     width: 600px;
 }
+
+
+
+
+
+
+
+
+
+/* Skill Progress Bar */
+
+
+
+.DevelopmentText .Skills-bar{
+    padding: 0px 0px;
+
+}
+
+
+.Skills-bar .bar{
+    margin: 38px 0px;
+
+}
+
+
+
+
+.Skills-bar .bar:first-child{
+    margin: 0px 0px;
+
+}
+
+
+.Skills-bar .bar .info{
+    margin-bottom: 11px;
+}
+
+
+.Skills-bar .bar .info span{
+   font-size: 20px;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   color: #000D21;
+}
+
+
+
+.Skills-bar .bar .Progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(255, 255, 255, 0.8);
+
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+ }
+
+
+
+
+ .Skills-bar .bar .Progress-line span{
+     height: 100%;
+     background: #ff3185;
+     position: absolute;
+     border-radius: 10px;
+     transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+
+ }
+
+
+
+
+ @keyframes animate {
+     100%{
+         transform: scaleX(1);
+     }
+ }
+ 
+.Progress-line.image span{    
+    width: 90%;  
+
+}
+
+
+.Progress-line.brand span{    
+    width: 92%;    
+}
+
+
+
+.Progress-line.uiUx span{    
+    width: 96%;    
+}
+
+
+
+ 
+.Progress-line.MongoDB span{    
+    width: 89%;  
+
+}
+
+
+.Progress-line.Node span{    
+    width: 85%;    
+}
+
+
+
+.Progress-line.React span{    
+    width: 80%;    
+}
+
+
+
+
+.bar .Progress-line span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -14px;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #f1fafd;
+}
+
+
+
+
+ .bar .Progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    color: #ff3185;
+    font-size: 12px;
+    font-weight: 700;
+    background: #68f8f4;
+    padding: 5px 8px;
+    border-radius: 3px;
+    
+}
+
+
+.Progress-line.image span::after{    
+    content: "95%";  
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+.Progress-line.brand span::after{    
+    content: "96%";
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+
+.Progress-line.uiUx span::after{    
+    content: "94%";   
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+
+.Progress-line.MongoDB span::after{    
+    content: "89%";  
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+.Progress-line.Node span::after{    
+    content: "85%";
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+
+.Progress-line.React span::after{    
+    content: "80%";   
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import Naver from '../../Shared/Naver/Naver';
+
 import Banner from '../Banner/Banner';
 import ContactUs from '../ContactUs/ContactUs';
 import Development from '../Development/Development';
@@ -10,8 +10,7 @@ import Work from '../Work/Work';
 
 const Home = () => {
     return (
-        <div className='Container'>
-            <Naver />
+        <div>           
             <Banner />
             <Resent />
             <Development />

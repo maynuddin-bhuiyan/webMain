@@ -2,36 +2,38 @@ import React from 'react';
 import './Responsive.css';
 import Grid from '@mui/material/Grid';
 import HubIcon from '@mui/icons-material/Hub';
-import icon1 from '../../../Images/Icon awesome-laravel.png';
-import icon2 from '../../../Images/Icon awesome-wordpress.png';
-import icon3 from '../../../Images/Group 4293.png';
-import icon4 from '../../../Images/Group 4295.png';
-import icon5 from '../../../Images/Icon awesome-magento.png';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
+import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
+
 
 
 
 const Responsive = () => {
     return (
         <div className='Responsive'>
-            <div className="line"></div>
-            <h1>New Responsive Web Development for
-                Desktop  &amp; Mobile Devices</h1>
+
+            <div className="Container">
+            
+            <h1>New Category</h1>
             <div className="line1"></div>
 
             <Grid sx={{marginTop: "100px"}} container spacing={2}>
         <Grid  item xs={4} md={4}>
         <div className="ResponsiveText">
         <div className="ResponsiveShap"></div>
-       <img src={icon2} alt="" />
-         <h2>Wordpress</h2>
+      <HtmlIcon className='icon' />
+         <h2>Html</h2>
          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
          </div>
         </Grid>
         <Grid item xs={4} md={4}>
         <div className="ResponsiveText">
         <div className="ResponsiveShap"></div>
-        <img src={icon3} alt="" />
-        <h2>WooCommerce</h2>
+       <CssIcon className='icon' />
+        <h2>Css</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
         </div>
         </Grid>
@@ -41,8 +43,8 @@ const Responsive = () => {
         <div className="ResponsiveText">
         <div className="ResponsiveShap"></div>  
        
-        <img src={icon5} alt="" />
-        <h2>Magento</h2>
+        <JavascriptIcon className='icon' />
+        <h2>Javascript ES6</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
         </div>
          </Grid>
@@ -51,8 +53,8 @@ const Responsive = () => {
         <div className="ResponsiveText">
         <div className="ResponsiveShap"></div>  
        
-        <img src={icon1} alt="" />
-        <h2>Laravel</h2>
+        <AddReactionIcon className='icon'/>
+        <h2>React.js</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
         </div>
          </Grid>
@@ -62,8 +64,8 @@ const Responsive = () => {
         <div className="ResponsiveText"> 
         <div className="ResponsiveShap"></div>
        
-        <HubIcon className='icon' />
-        <h2>Core PHP</h2>
+        <CircleNotificationsIcon className='icon' />
+        <h2>Node.js</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
         </div>
          </Grid>
@@ -71,14 +73,14 @@ const Responsive = () => {
          <Grid  item xs={4} md={4}>
         <div className="ResponsiveText">  
         <div className="ResponsiveShap"></div>
-        <img src={icon4} alt="" />
-        <h2>Custom Web</h2>
+        <HubIcon className='icon'/>
+        <h2>MongoDB</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
         </div>
          </Grid>
         </Grid>
 
-        </div>
+        </div></div>
     );
 };
 

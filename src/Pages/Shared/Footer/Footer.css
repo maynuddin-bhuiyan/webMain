@@ -1,8 +1,58 @@
 .Footer {
-    background-image: url("http://localhost:3000/static/media/Group%204299.4e4bbd28b01f78f327f7.png");
+    background-image: url("../../../Images/Mask\ Group\ 1.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 590px;
+    background-size: cover;    
     cursor: pointer;
+}
+
+
+
+.Footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Shape1 {
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.Shape2{
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+
+
+.FooterLogo p{
+    width: 220px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #102C50;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.FooterServices ul li{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #102C50;
+
+
+}
+
+
+.FooterSocialMedia ul li{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #102C50;
+
+
 }
